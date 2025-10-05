@@ -1,0 +1,80 @@
+{
+  "schema": "pocket-classroom/v1",
+  "id": "sample-javascript-fundamentals",
+  "meta": {
+    "title": "JavaScript Fundamentals",
+    "subject": "Programming",
+    "level": "Beginner",
+    "description": "Essential JavaScript concepts for beginners"
+  },
+  "notes": [
+    "JavaScript is a high-level, interpreted programming language",
+    "Variables can be declared using let, const, or var",
+    "Functions are first-class citizens in JavaScript",
+    "Arrays and objects are the main data structures",
+    "JavaScript supports both functional and object-oriented programming",
+    "The DOM (Document Object Model) allows JavaScript to interact with HTML",
+    "Asynchronous programming is handled with callbacks, promises, and async/await",
+    "JavaScript has dynamic typing - variables can hold any type of value"
+  ],
+  "flashcards": [
+    {
+      "front": "What are the three ways to declare variables in JavaScript?",
+      "back": "let, const, and var"
+    },
+    {
+      "front": "What is the difference between == and ===?",
+      "back": "== checks for value equality with type coercion, === checks for strict equality without type coercion"
+    },
+    {
+      "front": "What is a closure in JavaScript?",
+      "back": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned"
+    },
+    {
+      "front": "What does 'hoisting' mean in JavaScript?",
+      "back": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution"
+    },
+    {
+      "front": "What is the purpose of 'use strict'?",
+      "back": "It enables strict mode, which catches common coding errors and prevents the use of certain problematic features"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which keyword is used to declare a constant in JavaScript?",
+      "choices": ["var", "let", "const", "static"],
+      "correctIndex": 2,
+      "explanation": "The 'const' keyword is used to declare constants that cannot be reassigned."
+    },
+    {
+      "question": "What will typeof null return?",
+      "choices": ["null", "undefined", "object", "number"],
+      "correctIndex": 2,
+      "explanation": "This is a known quirk in JavaScript - typeof null returns 'object' due to a legacy bug."
+    },
+    {
+      "question": "Which method is used to add an element to the end of an array?",
+      "choices": ["push()", "pop()", "shift()", "unshift()"],
+      "correctIndex": 0,
+      "explanation": "The push() method adds one or more elements to the end of an array."
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "choices": [
+        "var colors = 'red', 'green', 'blue'",
+        "var colors = (1:'red', 2:'green', 3:'blue')",
+        "var colors = ['red', 'green', 'blue']",
+        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+      ],
+      "correctIndex": 2,
+      "explanation": "Arrays in JavaScript are created using square brackets with comma-separated values."
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "choices": ["function myFunction()", "function:myFunction()", "create myFunction()", "def myFunction()"],
+      "correctIndex": 0,
+      "explanation": "Functions are declared using the 'function' keyword followed by the function name and parentheses."
+    }
+  ],
+  "updatedAt": "2025-01-03T12:00:00.000Z"
+}
